@@ -1,0 +1,6 @@
+framework module ToastProvider {
+  umbrella header "ToastProvider-umbrella.h"
+
+  export *
+  module * { export * }
+}
