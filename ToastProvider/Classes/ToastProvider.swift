@@ -1,4 +1,4 @@
-//
+    //
 //  ToastProvider.swift
 //  ToastProvider
 //
@@ -24,19 +24,7 @@ public extension ToastProvider {
         toastWindow.makeKeyAndVisible()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + ToastConfiguration.shared.displayTime) {
-            toastWindow.isHidden = true
-            toastWindow.resignKey()
+            toastWindow.removeAndMakeInvisible()
         }
-    }
-    
-    private func animateAddWindow(window: UIWindow) {
-        UIView.animate(withDuration: 0.3) {
-            window.isHidden = false
-            window.makeKeyAndVisible()
-        }
-    }
-
-    private func removeView(superview: UIView) {
-
     }
 }
