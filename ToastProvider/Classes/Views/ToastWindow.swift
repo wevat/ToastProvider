@@ -12,7 +12,7 @@ class ToastWindow: UIWindow {
     var toastView: UIView!
     
     convenience init(view: UIView) {
-        self.init(frame: CGRect(origin: CGPoint(x: 0, y: 0), size: CGSize(width: 250, height: 250)))
+        self.init(frame: CGRect(origin: CGPoint(x: 0, y: 0), size: ToastConfiguration.shared.defaultSize))
         self.toastView = view
         setup()
     }
