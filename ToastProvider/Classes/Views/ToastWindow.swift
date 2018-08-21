@@ -14,17 +14,19 @@ class ToastWindow: UIWindow {
     private var animationDuration = TimeInterval(0.3)
     
     convenience init(view: UIView) {
-        self.init(frame: CGRect(origin: CGPoint(x: 0, y: 0), size: ToastConfiguration.shared.defaultSize))
+        self.init(frame: CGRect(origin: CGPoint(x: 0, y: 0),
+                                size: ToastConfiguration.shared.defaultSize))
         self.toastView = view
-        setup()
     }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        setup()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        setup()
     }
     
     override func makeKeyAndVisible() {
@@ -60,6 +62,7 @@ class ToastWindow: UIWindow {
         guard subviews.contains(view) == false else {
             return
         }
+        view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         view.widthAnchor.constraint(equalToConstant: ToastConfiguration.shared.defaultSize.width).isActive = true
         view.heightAnchor.constraint(equalToConstant: ToastConfiguration.shared.defaultSize.height).isActive = true
@@ -67,11 +70,8 @@ class ToastWindow: UIWindow {
         view.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
     }
     
-    
     private func setup() {
-        backgroundColor = UIColor.clear
         isUserInteractionEnabled = false
         windowLevel = UIWindowLevelAlert + 1
-        toastView.translatesAutoresizingMaskIntoConstraints = false
     }
 }
