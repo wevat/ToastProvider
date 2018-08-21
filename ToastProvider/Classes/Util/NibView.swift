@@ -40,7 +40,7 @@ class NibView: UIView {
     }
     
     func loadViewFromNib(_ nibName: String) -> UIView? {
-        let podBundle = Bundle(for: self.classForCoder)
+        let podBundle = Bundle(for: NibView.self)
         if let bundleUrl = podBundle.url(forResource: "ToastProvider", withExtension: "bundle"), let bundle = Bundle(url: bundleUrl) {
             if bundle.path(forResource: nibName, ofType: "nib") != nil {
                 let nib = UINib(nibName: nibName, bundle: bundle)

@@ -19,10 +19,11 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/harryblam/ToastProvider.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '9.0'
+  s.swift_version = '4.0'
 
   s.source_files = 'ToastProvider/Classes/**/*'
   
   s.resource_bundles = {
-    'ToastProvider' => ['ToastProvider/Classes/**/*.xib', 'ToastProvider/Assets/**/*']
+    'ToastProvider' => ['ToastProvider/Classes/**/*.xib']
   }
 end
