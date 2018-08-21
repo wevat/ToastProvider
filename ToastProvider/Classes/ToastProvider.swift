@@ -16,8 +16,7 @@ public protocol ToastProvider {
 public extension ToastProvider {
     
     func showToast(withMessage message: String, animated: Bool) {
-//        let toastView = ToastView(title: message, subtitle: nil)
-        let toastView = TempView()
+        let toastView = ToastView(title: message, subtitle: nil)
         let toastWindow = ToastWindow(view: toastView)
         
         toastWindow.isHidden = false

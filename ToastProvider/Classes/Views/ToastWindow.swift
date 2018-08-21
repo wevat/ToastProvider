@@ -11,6 +11,8 @@ class ToastWindow: UIWindow {
     
     var toastView: UIView!
     
+    private var animationDuration = TimeInterval(0.3)
+    
     convenience init(view: UIView) {
         self.init(frame: CGRect(origin: CGPoint(x: 0, y: 0), size: ToastConfiguration.shared.defaultSize))
         self.toastView = view
@@ -38,14 +40,14 @@ class ToastWindow: UIWindow {
     private func animateAddView() {
         addView(view: toastView)
         toastView.alpha = 0
-        UIView.animate(withDuration: 0.5) {
+        UIView.animate(withDuration: animationDuration) {
             self.toastView.alpha = 1
         }
     }
     
     private func animateRemoveView() {
         toastView.alpha = 1
-        UIView.animate(withDuration: 0.5, animations: {
+        UIView.animate(withDuration: animationDuration, animations: {
             self.toastView.alpha = 0
         }) { _ in
             self.toastView.removeFromSuperview()

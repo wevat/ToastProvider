@@ -45,7 +45,7 @@
 		BE01D24E833A5BDFD5FA1AED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BF79B3C5025790AD8E27A148 /* Pods_ToastProvider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToastProvider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E725CE39E60E11CAD7F02F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F748BB27505FC23A151834F3 /* ToastProvider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ToastProvider.podspec; path = ../ToastProvider.podspec; sourceTree = "<group>"; };
+		F748BB27505FC23A151834F3 /* ToastProvider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ToastProvider.podspec; path = ../ToastProvider.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC32E43938B84ADEB22C9D2C /* Pods_ToastProvider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToastProvider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
