@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
   s.source_files = 'ToastProvider/Classes/**/*'
   
   s.resource_bundles = {
-    'ToastProvider' => ['ToastProvider/Classes/**/*.xib']
+      'ToastProvider' => ['ToastProvider/**/*.{xib,png}']
   }
 end

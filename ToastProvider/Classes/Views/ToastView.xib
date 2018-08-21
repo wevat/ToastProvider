@@ -12,6 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ToastView" customModule="ToastProvider">
             <connections>
+                <outlet property="imageContainerView" destination="l5j-1z-ZW6" id="woP-Uz-eQK"/>
+                <outlet property="imageView" destination="3fc-ao-Zg1" id="suU-7X-Lw9"/>
                 <outlet property="subtitleLabel" destination="Neo-3m-S3S" id="Slv-Jz-VmS"/>
                 <outlet property="titleLabel" destination="Oz5-N6-D8V" id="GJh-Pa-6AG"/>
             </connections>
@@ -22,24 +24,43 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="eBp-wk-PF7">
-                    <rect key="frame" x="68.5" y="47" width="57" height="87.5"/>
+                    <rect key="frame" x="51" y="41" width="92" height="99.5"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oz5-N6-D8V">
-                            <rect key="frame" x="0.0" y="0.0" width="57" height="27.5"/>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l5j-1z-ZW6">
+                            <rect key="frame" x="0.0" y="0.0" width="92" height="52"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="tick-icon" translatesAutoresizingMaskIntoConstraints="NO" id="3fc-ao-Zg1">
+                                    <rect key="frame" x="20" y="0.0" width="52" height="52"/>
+                                    <color key="tintColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="52" id="85q-be-RCf"/>
+                                        <constraint firstAttribute="width" constant="52" id="lyK-9A-gz2"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="3fc-ao-Zg1" firstAttribute="centerY" secondItem="l5j-1z-ZW6" secondAttribute="centerY" id="ahR-kP-mj8"/>
+                                <constraint firstItem="3fc-ao-Zg1" firstAttribute="centerX" secondItem="l5j-1z-ZW6" secondAttribute="centerX" id="pAO-Or-D46"/>
+                                <constraint firstAttribute="height" constant="52" id="tCf-he-Dal"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="754" verticalCompressionResistancePriority="753" text="Toast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oz5-N6-D8V">
+                            <rect key="frame" x="0.0" y="62" width="92" height="27.5"/>
                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
-                            <nil key="textColor"/>
+                            <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Neo-3m-S3S">
-                            <rect key="frame" x="0.0" y="37.5" width="57" height="50"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Neo-3m-S3S">
+                            <rect key="frame" x="0.0" y="99.5" width="92" height="0.0"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                            <nil key="textColor"/>
+                            <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
                 </stackView>
             </subviews>
-            <color key="backgroundColor" red="0.84705882352941175" green="0.84705882352941175" blue="0.84705882352941175" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="eBp-wk-PF7" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Hud-hr-104"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eBp-wk-PF7" secondAttribute="trailing" constant="20" id="MLY-hJ-y42"/>
@@ -52,4 +73,7 @@
             <point key="canvasLocation" x="-57" y="296.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="tick-icon" width="128" height="112"/>
+    </resources>
 </document>

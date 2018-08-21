@@ -7,25 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		082B501574D4AE26DB081E38DA9B963F /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46542AB30C20B048C2B54321E3CAD631 /* NibView.swift */; };
+		05B7F9EC2C64B8A5852B9E9DF6BB49A5 /* ToastProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26489ED4819B341E48BF35B378E45FC6 /* ToastProvider.swift */; };
+		06BADE89DF94D071982624709B3619AE /* ToastProvider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12727DA717BEF1F109A882E1812EA7D3 /* ToastProvider-dummy.m */; };
+		0EA380130F92E963570AEC73144E7FBE /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AF54AD7675C12D8EDB1162902788E /* UIView+Extensions.swift */; };
+		1D038ACD54A002171A75FFEF116F6690 /* ToastView.xib in Sources */ = {isa = PBXBuildFile; fileRef = F3FA12E5D36A2D346D8152D2705863BB /* ToastView.xib */; };
 		2694EFD2E639BA35D63EF14B9B30DCBD /* Pods-ToastProvider_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FAF7EC55414CFD3ECC8DA23D1D3CFE /* Pods-ToastProvider_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34CC0B2984166F21212E645C04CB4B35 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A13E158DA6D817C5179DAD6957354AC /* UIView+Extensions.swift */; };
 		36EFB6C2999C659E31B29D4D41DA6867 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		3A964BCF131EBFBCD40B1CB3422C2702 /* ToastProvider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 266D10A429EB3038C0E3E89C51677CC5 /* ToastProvider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		522CE81946EED221870B91870C370E09 /* ToastProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB8C2CACEC69A6665B2497CFD8AD5D /* ToastProvider.swift */; };
+		3A964BCF131EBFBCD40B1CB3422C2702 /* ToastProvider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA9DD827BF2CEDE30973F4F46400590 /* ToastProvider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E800F2729C21A24BFC535C0111BA5A8 /* ToastProvider.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 11365171A3E5603E3ECCFA5652296E9A /* ToastProvider.bundle */; };
-		758D24D546EE81083FB5A4224695C592 /* ToastConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53F07794A7D76AF52486597D5924383 /* ToastConfiguration.swift */; };
-		7F715606F345EDB946C943D0014F2F00 /* ToastView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 82508902F994814A7D98F69AC6D954DB /* ToastView.xib */; };
-		826371DF7A94B2520AB9DA159DE6BDEF /* ToastProvider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD24E0B58832591620C864EA5AF02351 /* ToastProvider-dummy.m */; };
-		B86E475828D0019AEA208F0D30557D99 /* ToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82508902F994814A7D98F69AC6D954DB /* ToastView.xib */; };
+		750BC8AE212CB72200CBEAA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750BC8AD212CB72200CBEAA9 /* Images.xcassets */; };
+		750BC8B0212CBA3700CBEAA9 /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BC8AF212CBA3700CBEAA9 /* CGRect+Extensions.swift */; };
+		8FECB39F7280D5A925F8FE76D9B87C82 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382FCF9F89943943CC47E0D7B964396 /* NibView.swift */; };
+		B86E475828D0019AEA208F0D30557D99 /* ToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3FA12E5D36A2D346D8152D2705863BB /* ToastView.xib */; };
 		C2B162BD18FE2DC320DFAD27098E11A1 /* Pods-ToastProvider_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE78A7865D4AC2FCE4723C1289A8400 /* Pods-ToastProvider_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C815336DB51A67CE0801CAEBBB1CF63E /* TempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8040772249B92F2314F1B600DA86FFC7 /* TempView.swift */; };
+		C3A6165DCD70834B8DC9C8131C810AAE /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FE46DC6305BBA991DEFBA42AB6A6BE /* ToastWindow.swift */; };
 		D672A79F55E4E43CF135D0A63707BA28 /* Pods-ToastProvider_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF0F91B475612A97D501936B79F86B9 /* Pods-ToastProvider_Tests-dummy.m */; };
-		DB33F03D4D26BEB52CB894AAB4D907D2 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF35C7B89F2765B1FF1BB8ED5407FDE /* ToastView.swift */; };
-		ED636AE319F31DC4B2E1A62959538033 /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA1BF210065F9C67C95D6B4D355BDB5 /* ToastWindow.swift */; };
 		ED83B7F70993E515D4FD7A2A4AACFB5B /* Pods-ToastProvider_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 546BA501A10F72BAC759428F955A17A0 /* Pods-ToastProvider_Example-dummy.m */; };
 		F57C8884C07755B1A0CB29CF89811860 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		FB7F6D608A7EF848A9EA5335C3BFAE91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FCD0D5D873470C949C378DF9DAB77CD0 /* ToastConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E247269BFAD7B09FBE84952AFD137497 /* ToastConfiguration.swift */; };
+		FDF445A46044303477CD87D0A2C38718 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A59536488B561D3FB9787D05F4BB24 /* ToastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,50 +54,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11365171A3E5603E3ECCFA5652296E9A /* ToastProvider.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ToastProvider.bundle; path = "ToastProvider-ToastProvider.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13347097D107F0AAA194F2726DC925BD /* ToastProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ToastProvider.framework; path = ToastProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C288B6A7A09A26A4825C6D1B8EE4E1 /* ToastProvider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ToastProvider-prefix.pch"; sourceTree = "<group>"; };
+		11365171A3E5603E3ECCFA5652296E9A /* ToastProvider.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToastProvider.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		12727DA717BEF1F109A882E1812EA7D3 /* ToastProvider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ToastProvider-dummy.m"; sourceTree = "<group>"; };
+		13347097D107F0AAA194F2726DC925BD /* ToastProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToastProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FAF7EC55414CFD3ECC8DA23D1D3CFE /* Pods-ToastProvider_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToastProvider_Example-umbrella.h"; sourceTree = "<group>"; };
-		1F9153BEBD35F2979C02E6C7D2F968C5 /* ToastProvider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ToastProvider.modulemap; sourceTree = "<group>"; };
-		266D10A429EB3038C0E3E89C51677CC5 /* ToastProvider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ToastProvider-umbrella.h"; sourceTree = "<group>"; };
+		1EA9DD827BF2CEDE30973F4F46400590 /* ToastProvider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ToastProvider-umbrella.h"; sourceTree = "<group>"; };
+		26489ED4819B341E48BF35B378E45FC6 /* ToastProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastProvider.swift; path = ToastProvider/Classes/ToastProvider.swift; sourceTree = "<group>"; };
+		29FE46DC6305BBA991DEFBA42AB6A6BE /* ToastWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToastWindow.swift; sourceTree = "<group>"; };
 		2B55D70DD178AA4EB9C3676E1554FAF4 /* Pods-ToastProvider_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToastProvider_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2C850372D872E64378CB4D0A03779F2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3733ABAD2DDA0019B03E1B5E98686109 /* Pods-ToastProvider_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ToastProvider_Tests.modulemap"; sourceTree = "<group>"; };
-		3CA5F86A87B2D8DD7DA3577FD07999E6 /* ToastProvider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ToastProvider-prefix.pch"; sourceTree = "<group>"; };
 		409A15148AC3590D08BF10E3D0C28C81 /* Pods-ToastProvider_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToastProvider_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		46542AB30C20B048C2B54321E3CAD631 /* NibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
-		46A7C36708986835731EB95D6AF466BD /* ResourceBundle-ToastProvider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ToastProvider-Info.plist"; sourceTree = "<group>"; };
+		48A59536488B561D3FB9787D05F4BB24 /* ToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		4BEA6651B5E6E6EDD650240D6A633E70 /* Pods-ToastProvider_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToastProvider_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		546BA501A10F72BAC759428F955A17A0 /* Pods-ToastProvider_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToastProvider_Example-dummy.m"; sourceTree = "<group>"; };
-		5CF35C7B89F2765B1FF1BB8ED5407FDE /* ToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
-		65D23527FF0A89428DCA06B60E21BAAD /* ToastProvider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ToastProvider.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6382FCF9F89943943CC47E0D7B964396 /* NibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		6494FB9F0D53C83A1E3C20683FB1B3BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		692AF54AD7675C12D8EDB1162902788E /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		6BE888EF5C574999579CCCF047BDA5A2 /* Pods-ToastProvider_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ToastProvider_Example.modulemap"; sourceTree = "<group>"; };
 		6C7567BC7D168A7756EEB5E044876A23 /* Pods-ToastProvider_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToastProvider_Example-resources.sh"; sourceTree = "<group>"; };
 		6E854F50A0A086D74B0E27F57EAD4267 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F56C1C910692B7AB6950A93C9F60EAA /* Pods_ToastProvider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ToastProvider_Tests.framework; path = "Pods-ToastProvider_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8040772249B92F2314F1B600DA86FFC7 /* TempView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TempView.swift; sourceTree = "<group>"; };
-		82508902F994814A7D98F69AC6D954DB /* ToastView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ToastView.xib; sourceTree = "<group>"; };
+		750BC8AD212CB72200CBEAA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ToastProvider/Assets/Images.xcassets; sourceTree = "<group>"; };
+		750BC8AF212CBA3700CBEAA9 /* CGRect+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensions.swift"; sourceTree = "<group>"; };
+		7947C7FE08415BD897DDA428DC2FCBF2 /* ToastProvider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ToastProvider.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C39B2F7B30F1C727BB6B9799C9E6163 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7F56C1C910692B7AB6950A93C9F60EAA /* Pods_ToastProvider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToastProvider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		886F75048154EF3309879EFD36A1B177 /* Pods-ToastProvider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToastProvider_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8A13E158DA6D817C5179DAD6957354AC /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
-		919194F2844AC487FE4F3A56EBB93926 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91A4E344501D798F0D2D9B239EC000D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8FF3AC32863FB5FB3CCDFC0D786CB3F0 /* ToastProvider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ToastProvider.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E9A2BF1B3922806165D4C22733DACAD /* Pods-ToastProvider_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToastProvider_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A9E802ED329F83EA50FF67F210FB64D4 /* Pods_ToastProvider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ToastProvider_Example.framework; path = "Pods-ToastProvider_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E802ED329F83EA50FF67F210FB64D4 /* Pods_ToastProvider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToastProvider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4AC3B69B473233B21CE51E10E6DC28 /* Pods-ToastProvider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToastProvider_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AEA1BF210065F9C67C95D6B4D355BDB5 /* ToastWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToastWindow.swift; sourceTree = "<group>"; };
 		AFC9BA4D65D514C996FDE55E79FE086E /* Pods-ToastProvider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToastProvider_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B30947654183F0DF5CFD42A13D6C2087 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5A80AB7AA4FCE3188370636FD2D0F04 /* Pods-ToastProvider_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToastProvider_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B5EB8C2CACEC69A6665B2497CFD8AD5D /* ToastProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastProvider.swift; path = ToastProvider/Classes/ToastProvider.swift; sourceTree = "<group>"; };
 		C78436F56C0891867C9E1F687C50966F /* Pods-ToastProvider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToastProvider_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D53F07794A7D76AF52486597D5924383 /* ToastConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastConfiguration.swift; path = ToastProvider/Classes/ToastConfiguration.swift; sourceTree = "<group>"; };
+		CB993C8E6AA8A0DAA47EA3F31C6BA3EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6FC4405B1E9FC2B0CD8452EC4570D01 /* Pods-ToastProvider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToastProvider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DFE3F3E224862558FA64721094055C2E /* ToastProvider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ToastProvider.xcconfig; sourceTree = "<group>"; };
+		D9B74AC788914328275DCDDDB81AE7AE /* ToastProvider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ToastProvider.modulemap; sourceTree = "<group>"; };
+		E247269BFAD7B09FBE84952AFD137497 /* ToastConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastConfiguration.swift; path = ToastProvider/Classes/ToastConfiguration.swift; sourceTree = "<group>"; };
+		E82409DCCD158A80A1206FB396D6BFFF /* ResourceBundle-ToastProvider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ToastProvider-Info.plist"; sourceTree = "<group>"; };
 		EEE78A7865D4AC2FCE4723C1289A8400 /* Pods-ToastProvider_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToastProvider_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EFF0F91B475612A97D501936B79F86B9 /* Pods-ToastProvider_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToastProvider_Tests-dummy.m"; sourceTree = "<group>"; };
+		F3FA12E5D36A2D346D8152D2705863BB /* ToastView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ToastView.xib; sourceTree = "<group>"; };
 		F50B8CB7485773582259018AFA5376FC /* Pods-ToastProvider_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToastProvider_Tests-resources.sh"; sourceTree = "<group>"; };
-		FD24E0B58832591620C864EA5AF02351 /* ToastProvider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ToastProvider-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,20 +136,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F638C7F295E61805D4F29B007B82B95 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2C850372D872E64378CB4D0A03779F2D /* LICENSE */,
-				91A4E344501D798F0D2D9B239EC000D2 /* README.md */,
-				65D23527FF0A89428DCA06B60E21BAAD /* ToastProvider.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		2A71B30AEEB91028D4C71C9594CDED52 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F7162E3B128243DE8E91DC73ACA817CD /* ToastProvider */,
+				5DC1B9D41F863973B05D01898283F670 /* ToastProvider */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -179,6 +171,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		5542B2ABD4A95F029A8BF9D0A106B26B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB993C8E6AA8A0DAA47EA3F31C6BA3EC /* Info.plist */,
+				E82409DCCD158A80A1206FB396D6BFFF /* ResourceBundle-ToastProvider-Info.plist */,
+				D9B74AC788914328275DCDDDB81AE7AE /* ToastProvider.modulemap */,
+				8FF3AC32863FB5FB3CCDFC0D786CB3F0 /* ToastProvider.xcconfig */,
+				12727DA717BEF1F109A882E1812EA7D3 /* ToastProvider-dummy.m */,
+				10C288B6A7A09A26A4825C6D1B8EE4E1 /* ToastProvider-prefix.pch */,
+				1EA9DD827BF2CEDE30973F4F46400590 /* ToastProvider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ToastProvider";
+			sourceTree = "<group>";
+		};
 		55B5E0905CF7C4831AF46F955BB282D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,38 +197,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5BFC2A8A114350424815E1D6B7F496B4 /* Support Files */ = {
+		5CC20DDAEFB1A80D553366242D5DC2A7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				919194F2844AC487FE4F3A56EBB93926 /* Info.plist */,
-				46A7C36708986835731EB95D6AF466BD /* ResourceBundle-ToastProvider-Info.plist */,
-				1F9153BEBD35F2979C02E6C7D2F968C5 /* ToastProvider.modulemap */,
-				DFE3F3E224862558FA64721094055C2E /* ToastProvider.xcconfig */,
-				FD24E0B58832591620C864EA5AF02351 /* ToastProvider-dummy.m */,
-				3CA5F86A87B2D8DD7DA3577FD07999E6 /* ToastProvider-prefix.pch */,
-				266D10A429EB3038C0E3E89C51677CC5 /* ToastProvider-umbrella.h */,
+				692AF54AD7675C12D8EDB1162902788E /* UIView+Extensions.swift */,
+				750BC8AF212CBA3700CBEAA9 /* CGRect+Extensions.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ToastProvider";
+			name = Extensions;
+			path = ToastProvider/Classes/Extensions;
 			sourceTree = "<group>";
 		};
-		5FE1FD6B0BA6B6B74ECD1BED58CB000D /* Views */ = {
+		5DC1B9D41F863973B05D01898283F670 /* ToastProvider */ = {
 			isa = PBXGroup;
 			children = (
-				8040772249B92F2314F1B600DA86FFC7 /* TempView.swift */,
-				5CF35C7B89F2765B1FF1BB8ED5407FDE /* ToastView.swift */,
-				82508902F994814A7D98F69AC6D954DB /* ToastView.xib */,
-				AEA1BF210065F9C67C95D6B4D355BDB5 /* ToastWindow.swift */,
+				E247269BFAD7B09FBE84952AFD137497 /* ToastConfiguration.swift */,
+				26489ED4819B341E48BF35B378E45FC6 /* ToastProvider.swift */,
+				5CC20DDAEFB1A80D553366242D5DC2A7 /* Extensions */,
+				DDF27D5DAFC69ED33F2E1E1815847847 /* Pod */,
+				C8E306B49F407BF21238550358098F9C /* Resources */,
+				5542B2ABD4A95F029A8BF9D0A106B26B /* Support Files */,
+				B37405244529150EE8902502CFFD3AE3 /* Util */,
+				DDFA8A124EDD482C50FF73F53A7A220D /* Views */,
 			);
-			name = Views;
-			path = ToastProvider/Classes/Views;
-			sourceTree = "<group>";
-		};
-		76D9B8DDD99E21935F45E31DD9280794 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
+			name = ToastProvider;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -253,6 +252,15 @@
 			path = "Target Support Files/Pods-ToastProvider_Tests";
 			sourceTree = "<group>";
 		};
+		B37405244529150EE8902502CFFD3AE3 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				6382FCF9F89943943CC47E0D7B964396 /* NibView.swift */,
+			);
+			name = Util;
+			path = ToastProvider/Classes/Util;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,13 +269,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CB4BF22642708F487AE5841A222B4C49 /* Util */ = {
+		C8E306B49F407BF21238550358098F9C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				46542AB30C20B048C2B54321E3CAD631 /* NibView.swift */,
+				750BC8AD212CB72200CBEAA9 /* Images.xcassets */,
 			);
-			name = Util;
-			path = ToastProvider/Classes/Util;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -278,29 +285,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F7162E3B128243DE8E91DC73ACA817CD /* ToastProvider */ = {
+		DDF27D5DAFC69ED33F2E1E1815847847 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D53F07794A7D76AF52486597D5924383 /* ToastConfiguration.swift */,
-				B5EB8C2CACEC69A6665B2497CFD8AD5D /* ToastProvider.swift */,
-				FEA33F3E510F80BE8ABA2A577462C930 /* Extensions */,
-				0F638C7F295E61805D4F29B007B82B95 /* Pod */,
-				76D9B8DDD99E21935F45E31DD9280794 /* Resources */,
-				5BFC2A8A114350424815E1D6B7F496B4 /* Support Files */,
-				CB4BF22642708F487AE5841A222B4C49 /* Util */,
-				5FE1FD6B0BA6B6B74ECD1BED58CB000D /* Views */,
+				6494FB9F0D53C83A1E3C20683FB1B3BB /* LICENSE */,
+				7C39B2F7B30F1C727BB6B9799C9E6163 /* README.md */,
+				7947C7FE08415BD897DDA428DC2FCBF2 /* ToastProvider.podspec */,
 			);
-			name = ToastProvider;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		FEA33F3E510F80BE8ABA2A577462C930 /* Extensions */ = {
+		DDFA8A124EDD482C50FF73F53A7A220D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8A13E158DA6D817C5179DAD6957354AC /* UIView+Extensions.swift */,
+				48A59536488B561D3FB9787D05F4BB24 /* ToastView.swift */,
+				F3FA12E5D36A2D346D8152D2705863BB /* ToastView.xib */,
+				29FE46DC6305BBA991DEFBA42AB6A6BE /* ToastWindow.swift */,
 			);
-			name = Extensions;
-			path = ToastProvider/Classes/Extensions;
+			name = Views;
+			path = ToastProvider/Classes/Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,7 +357,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68D57AFCA42ECBDB3EFCAC9C057B81DE /* Build configuration list for PBXNativeTarget "ToastProvider" */;
 			buildPhases = (
-				A88BB18342CB12C5936A477F4F530ACC /* Sources */,
+				F23EBA3F9A09207488A12C0D4DC38432 /* Sources */,
 				744D8791B1F831F6CDEF61EC615C3067 /* Frameworks */,
 				774508C83E6827A3846010FEFC31DCCE /* Resources */,
 				5C6F3DD477293E70E1E6833C3782871A /* Headers */,
@@ -448,6 +451,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E800F2729C21A24BFC535C0111BA5A8 /* ToastProvider.bundle in Resources */,
+				750BC8AE212CB72200CBEAA9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,26 +466,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A88BB18342CB12C5936A477F4F530ACC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				082B501574D4AE26DB081E38DA9B963F /* NibView.swift in Sources */,
-				C815336DB51A67CE0801CAEBBB1CF63E /* TempView.swift in Sources */,
-				758D24D546EE81083FB5A4224695C592 /* ToastConfiguration.swift in Sources */,
-				826371DF7A94B2520AB9DA159DE6BDEF /* ToastProvider-dummy.m in Sources */,
-				522CE81946EED221870B91870C370E09 /* ToastProvider.swift in Sources */,
-				DB33F03D4D26BEB52CB894AAB4D907D2 /* ToastView.swift in Sources */,
-				7F715606F345EDB946C943D0014F2F00 /* ToastView.xib in Sources */,
-				ED636AE319F31DC4B2E1A62959538033 /* ToastWindow.swift in Sources */,
-				34CC0B2984166F21212E645C04CB4B35 /* UIView+Extensions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DFA6214E301051B7E25F0A2EBE79D674 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23EBA3F9A09207488A12C0D4DC38432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FECB39F7280D5A925F8FE76D9B87C82 /* NibView.swift in Sources */,
+				750BC8B0212CBA3700CBEAA9 /* CGRect+Extensions.swift in Sources */,
+				FCD0D5D873470C949C378DF9DAB77CD0 /* ToastConfiguration.swift in Sources */,
+				06BADE89DF94D071982624709B3619AE /* ToastProvider-dummy.m in Sources */,
+				05B7F9EC2C64B8A5852B9E9DF6BB49A5 /* ToastProvider.swift in Sources */,
+				FDF445A46044303477CD87D0A2C38718 /* ToastView.swift in Sources */,
+				1D038ACD54A002171A75FFEF116F6690 /* ToastView.xib in Sources */,
+				C3A6165DCD70834B8DC9C8131C810AAE /* ToastWindow.swift in Sources */,
+				0EA380130F92E963570AEC73144E7FBE /* UIView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,7 +621,7 @@
 		};
 		426ED58E8972E2B4DDA4BF8CE9C25885 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFE3F3E224862558FA64721094055C2E /* ToastProvider.xcconfig */;
+			baseConfigurationReference = 8FF3AC32863FB5FB3CCDFC0D786CB3F0 /* ToastProvider.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ToastProvider";
@@ -668,7 +672,7 @@
 		};
 		99F4ADA27C1641752951AEC60C630391 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFE3F3E224862558FA64721094055C2E /* ToastProvider.xcconfig */;
+			baseConfigurationReference = 8FF3AC32863FB5FB3CCDFC0D786CB3F0 /* ToastProvider.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ToastProvider";
@@ -684,7 +688,7 @@
 		};
 		A1DDE25163D61A2A9030D1839E74FC50 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFE3F3E224862558FA64721094055C2E /* ToastProvider.xcconfig */;
+			baseConfigurationReference = 8FF3AC32863FB5FB3CCDFC0D786CB3F0 /* ToastProvider.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -750,7 +754,7 @@
 		};
 		F7C58C522C5FED77FEBC031BBE1D5E57 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFE3F3E224862558FA64721094055C2E /* ToastProvider.xcconfig */;
+			baseConfigurationReference = 8FF3AC32863FB5FB3CCDFC0D786CB3F0 /* ToastProvider.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -22,7 +22,7 @@
   "source_files": "ToastProvider/Classes/**/*",
   "resource_bundles": {
     "ToastProvider": [
-      "ToastProvider/Classes/**/*.xib"
+      "ToastProvider/**/*.{xib,png}"
     ]
   }
 }

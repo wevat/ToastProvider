@@ -18,7 +18,7 @@ class ViewController: UIViewController, ToastProvider {
     }
 
     @IBAction func showToast() {
-        showToast(withMessage: "LOL", animated: true)
+        showToast(withTitle: "Toast", subtitle: "Description of toast message. Could be long, or could be short, you decide.", image: nil, animated: true)
     }
 }
 
