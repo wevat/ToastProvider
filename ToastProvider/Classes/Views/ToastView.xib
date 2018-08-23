@@ -29,12 +29,12 @@
                         <view contentMode="scaleToFill" horizontalHuggingPriority="200" verticalHuggingPriority="200" placeholderIntrinsicWidth="92" placeholderIntrinsicHeight="80" translatesAutoresizingMaskIntoConstraints="NO" id="l5j-1z-ZW6">
                             <rect key="frame" x="0.0" y="0.0" width="92" height="80"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="tick-icon" translatesAutoresizingMaskIntoConstraints="NO" id="3fc-ao-Zg1">
-                                    <rect key="frame" x="20" y="14.5" width="52" height="52"/>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="tick-icon" translatesAutoresizingMaskIntoConstraints="NO" id="3fc-ao-Zg1">
+                                    <rect key="frame" x="16" y="10.5" width="60" height="60"/>
                                     <color key="tintColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="52" id="85q-be-RCf"/>
-                                        <constraint firstAttribute="width" constant="52" id="lyK-9A-gz2"/>
+                                        <constraint firstAttribute="height" constant="60" id="85q-be-RCf"/>
+                                        <constraint firstAttribute="width" constant="60" id="lyK-9A-gz2"/>
                                     </constraints>
                                 </imageView>
                             </subviews>

@@ -14,7 +14,6 @@ class ViewController: UIViewController, ToastProvider {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.green
     }
 
     @IBAction func showToast() {

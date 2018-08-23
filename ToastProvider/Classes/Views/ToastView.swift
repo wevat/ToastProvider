@@ -41,6 +41,7 @@ class ToastView: NibView {
     
     private func setupBackgroundView() {
         backgroundColor = .clear
+        view?.backgroundColor = UIColor.gray.withAlphaComponent(0.1)
         if #available(iOS 10.0, *) {
             blurView = UIVisualEffectView(effect: UIBlurEffect(style: .prominent))
         } else {
@@ -50,5 +51,6 @@ class ToastView: NibView {
         insertSubview(blurView, at: 0)
         blurView.pinEdgesToSuperviewEdges()
         blurView.cornerRadius = 10
+        view?.cornerRadius = 10
     }
 }
