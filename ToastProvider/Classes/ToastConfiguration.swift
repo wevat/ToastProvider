@@ -16,7 +16,7 @@ public class ToastConfiguration {
     var displayTime: TimeInterval
     
     private init() {
-        defaultSize = CGSize(width: 200, height: 200)
+        defaultSize = CGSize(width: 250, height: 250)
         displayTime = 3
     }
 }

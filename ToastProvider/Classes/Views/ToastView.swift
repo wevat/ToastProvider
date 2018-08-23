@@ -22,7 +22,6 @@ class ToastView: NibView {
         subtitleLabel.text = subtitle
         imageView.image = image
         imageContainerView.isHidden = image == nil
-        
     }
     
     override init() {
@@ -50,6 +49,6 @@ class ToastView: NibView {
         
         insertSubview(blurView, at: 0)
         blurView.pinEdgesToSuperviewEdges()
-        blurView.cornerRadius = 3
+        blurView.cornerRadius = 10
     }
 }
