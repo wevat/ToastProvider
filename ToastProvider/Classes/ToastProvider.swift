@@ -10,20 +10,20 @@ import UIKit
 
 public protocol ToastProvider {
     
-    func showToast(withTitle title: String, subtitle: String?, image: UIImage?, animated: Bool)
+    func showToast(withTitle title: String, subtitle: String?, image: UIImage?, animation: ToastViewAnimationType)
 }
 
 public extension ToastProvider {
     
-    func showToast(withTitle title: String, subtitle: String?, image: UIImage?, animated: Bool) {
+    func showToast(withTitle title: String, subtitle: String?, image: UIImage?, animation: ToastViewAnimationType) {
         let toastView = ToastView(title: title, subtitle: subtitle, image: image)
-        let toastWindow = ToastWindow(view: toastView)
+        let toastWindow = ToastWindow(view: toastView, animationType: animation)
         
         let centerOfScreen = UIScreen.main.bounds.center
-        show(withCenterPoint: centerOfScreen, toastWindow: toastWindow, animated: animated)
+        show(withCenterPoint: centerOfScreen, toastWindow: toastWindow)
     }
     
-    private func show(withCenterPoint center: CGPoint, toastWindow: ToastWindow, animated: Bool) {
+    private func show(withCenterPoint center: CGPoint, toastWindow: ToastWindow) {
         toastWindow.isHidden = false
         toastWindow.makeKeyAndVisible()
         toastWindow.center = center
@@ -36,11 +36,11 @@ public extension ToastProvider {
 
 public extension ToastProvider where Self: UIViewController {
     
-    func showToast(withTitle title: String, subtitle: String?, image: UIImage?, animated: Bool) {
+    func showToast(withTitle title: String, subtitle: String?, image: UIImage?, animation: ToastViewAnimationType) {
         let toastView = ToastView(title: title, subtitle: subtitle, image: image)
-        let toastWindow = ToastWindow(view: toastView)
+        let toastWindow = ToastWindow(view: toastView, animationType: animation)
         
-        show(withCenterPoint: self.view.center, toastWindow: toastWindow, animated: animated)
+        show(withCenterPoint: self.view.center, toastWindow: toastWindow)
     }
 }
     

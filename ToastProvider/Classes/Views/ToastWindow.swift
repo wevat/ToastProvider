@@ -7,16 +7,18 @@
 
 import UIKit
 
-class ToastWindow: UIWindow {
+class ToastWindow: UIWindow, ToastViewAnimator {
     
     var toastView: UIView!
+    var animationType: ToastViewAnimationType!
     
     private var animationDuration = TimeInterval(0.3)
     
-    convenience init(view: UIView) {
+    convenience init(view: UIView, animationType: ToastViewAnimationType) {
         self.init(frame: CGRect(origin: CGPoint(x: 0, y: 0),
                                 size: ToastConfiguration.shared.defaultSize))
         self.toastView = view
+        self.animationType = animationType
     }
     
     override init(frame: CGRect) {
@@ -32,42 +34,15 @@ class ToastWindow: UIWindow {
     override func makeKeyAndVisible() {
         super.makeKeyAndVisible()
         
-        animateAddView()
+        addViewWithAnimation(view: toastView, animationDuration: animationDuration, animationType: animationType)
     }
     
     func removeAndMakeInvisible() {
-        animateRemoveView()
-    }
-    
-    private func animateAddView() {
-        addView(view: toastView)
-        toastView.alpha = 0
-        UIView.animate(withDuration: animationDuration) {
-            self.toastView.alpha = 1
-        }
-    }
-    
-    private func animateRemoveView() {
-        toastView.alpha = 1
-        UIView.animate(withDuration: animationDuration, animations: {
-            self.toastView.alpha = 0
-        }) { _ in
-            self.toastView.removeFromSuperview()
+        
+        removeViewWithAnimation(view: toastView, animationDuration: animationDuration, animationType: animationType) {
             self.isHidden = true
             self.resignKey()
         }
-    }
-    
-    private func addView(view: UIView) {
-        guard subviews.contains(view) == false else {
-            return
-        }
-        view.translatesAutoresizingMaskIntoConstraints = false
-        addSubview(view)
-        view.widthAnchor.constraint(equalToConstant: ToastConfiguration.shared.defaultSize.width).isActive = true
-        view.heightAnchor.constraint(equalToConstant: ToastConfiguration.shared.defaultSize.height).isActive = true
-        view.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
-        view.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
     }
     
     private func setup() {
