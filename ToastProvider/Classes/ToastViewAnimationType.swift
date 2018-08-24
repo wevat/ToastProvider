@@ -10,4 +10,5 @@ import Foundation
 public enum ToastViewAnimationType {
     case none
     case alphaFade
+    case verticalBlinds
 }

@@ -69,3 +69,24 @@ extension ToastViewAnimator where Self: UIView {
         }
     }
 }
+
+//MARK: Vertical blinds animations
+extension ToastViewAnimator where Self: UIView {
+    
+    private func animateViewAddWithBlinds(_ view: UIView, _ animationDuration: TimeInterval) {
+        view.alpha = 0
+        UIView.animate(withDuration: animationDuration) {
+            view.alpha = 1
+        }
+    }
+    
+    private func animateViewRemoveWithBlinds(_ view: UIView, _ animationDuration: TimeInterval, _ completion: @escaping (() -> Void)) {
+        view.alpha = 1
+        UIView.animate(withDuration: animationDuration, animations: {
+            view.alpha = 0
+        }) { _ in
+            view.removeFromSuperview()
+            completion()
+        }
+    }
+}
