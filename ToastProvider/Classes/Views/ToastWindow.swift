@@ -12,6 +12,8 @@ class ToastWindow: UIWindow, ToastViewAnimator {
     var toastView: UIView!
     var animationType: ToastViewAnimationType!
     
+    var constraintCache: NSLayoutConstraint?
+    
     private var animationDuration = TimeInterval(0.3)
     
     convenience init(view: UIView, animationType: ToastViewAnimationType) {
