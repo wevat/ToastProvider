@@ -1,5 +1,19 @@
 # ToastProvider
 
+## Providing your app with Toast messages.  
+A simple Toast provider library, to provide your app with some temporary information in an eye pleasing fashion.
+
+It can show a title, an optional subtitle, and also an optional image. 
+
+Configure the size and the display time of the toast, by changing the values on the configuration singleton, i.e: `ToastConfiguration.shared.displayTime = 1.5`.
+
+There are also a few different options for animation types. If you would like to see something added, suggestions are welcomed!
+
+<p align="center">
+<img src="https://github.com/wevat/ToastProvider/blob/master/ToastProvider/Assets/toast.gif" width="400">
+</p>
+
+
 [![CI Status](https://img.shields.io/travis/harryblam/ToastProvider.svg?style=flat)](https://travis-ci.org/harryblam/ToastProvider)
 [![Version](https://img.shields.io/cocoapods/v/ToastProvider.svg?style=flat)](https://cocoapods.org/pods/ToastProvider)
 [![License](https://img.shields.io/cocoapods/l/ToastProvider.svg?style=flat)](https://cocoapods.org/pods/ToastProvider)
@@ -22,7 +36,7 @@ pod 'ToastProvider'
 
 ## Author
 
-harryblam, harrybloom18@gmail.com
+harryblam, harry@wevat.com
 
 ## License
 

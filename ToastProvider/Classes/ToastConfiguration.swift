@@ -10,10 +10,10 @@ import Foundation
 
 public class ToastConfiguration {
     
-    static let shared = ToastConfiguration()
+    public static let shared = ToastConfiguration()
     
-    var defaultSize: CGSize
-    var displayTime: TimeInterval
+    public var defaultSize: CGSize
+    public var displayTime: TimeInterval
     
     private init() {
         defaultSize = CGSize(width: 250, height: 250)

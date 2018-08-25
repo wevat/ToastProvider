@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'Providing your app with Toast messages.'
 
-  s.description      = 'A simple Toast provider library, to provide your app with some temporary information in an eye pleasing fashion.'
+  s.description      = 'A simple Toast provider library, to provide your app with some temporary information in an eye pleasing fashion. It can show a title, an optional subtitle, and also an optional image.'
 
   s.homepage         = 'https://github.com/wevat/ToastProvider.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
