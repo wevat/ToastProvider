@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol ToastViewAnimator: class {
+public protocol ToastViewAnimator: class {
     
     var constraintCache: NSLayoutConstraint? { get set }
     
@@ -15,7 +15,7 @@ protocol ToastViewAnimator: class {
     func removeViewWithAnimation(view: UIView, animationDuration: TimeInterval, animationType: ToastViewAnimationType, completion: @escaping (() -> Void))
 }
 
-extension ToastViewAnimator where Self: UIView {
+public extension ToastViewAnimator where Self: UIView {
     
     func addViewWithAnimation(view: UIView, animationDuration: TimeInterval, animationType: ToastViewAnimationType) {
         
@@ -64,7 +64,7 @@ extension ToastViewAnimator where Self: UIView {
 }
 
 //MARK: Fade animations
-extension ToastViewAnimator where Self: UIView {
+public extension ToastViewAnimator where Self: UIView {
 
     private func animateViewAddWithFade(_ view: UIView, _ animationDuration: TimeInterval) {
         view.alpha = 0
@@ -85,7 +85,7 @@ extension ToastViewAnimator where Self: UIView {
 }
 
 //MARK: Vertical blinds animations
-extension ToastViewAnimator where Self: UIView {
+public extension ToastViewAnimator where Self: UIView {
     
     private func animateViewAddWithBlinds(_ view: UIView, _ animationDuration: TimeInterval) {
         view.widthAnchor.constraint(equalToConstant: ToastConfiguration.shared.defaultSize.width).isActive = true
