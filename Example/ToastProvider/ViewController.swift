@@ -11,7 +11,6 @@ import ToastProvider
 
 class ViewController: UIViewController, ToastProvider {
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
     }

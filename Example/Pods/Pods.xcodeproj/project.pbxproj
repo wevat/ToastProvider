@@ -15,6 +15,8 @@
 		34227F3E5591834FCFF27219352C81F8 /* Pods-ToastProvider_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE25148770C774B009049F29207ECEA4 /* Pods-ToastProvider_Tests-dummy.m */; };
 		54ACDB9C26FB4F82AA8D6F27834907F5 /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D108D080886D96DEB62F4B6981A4156 /* CGRect+Extensions.swift */; };
 		6658EE3DF969271F4401B94D0AE787C9 /* ToastProvider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE6AAD085C0FD64BF538A4124D622AA /* ToastProvider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75CE3F7E216689A70011A265 /* ToastState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE3F7D216689A70011A265 /* ToastState.swift */; };
+		75CE3F8021668FFD0011A265 /* ToastStateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE3F7F21668FFD0011A265 /* ToastStateInteractor.swift */; };
 		75FF857D2130CBB400B188C1 /* ToastViewAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF857B2130CBB400B188C1 /* ToastViewAnimationType.swift */; };
 		75FF857E2130CBB400B188C1 /* ToastViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF857C2130CBB400B188C1 /* ToastViewAnimator.swift */; };
 		7E47D1E04BDB11F7277E6F18E4683965 /* ToastProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0DD2CD536A39EC5CA5965EE1B2389C /* ToastProvider.swift */; };
@@ -77,6 +79,8 @@
 		5A46EB01D020CB900BE19A8F41A0B05D /* Pods-ToastProvider_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToastProvider_Example-umbrella.h"; sourceTree = "<group>"; };
 		6D108D080886D96DEB62F4B6981A4156 /* CGRect+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensions.swift"; sourceTree = "<group>"; };
 		7214D1B1F1F14BE0ACD57954ABD6EBF3 /* Pods-ToastProvider_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToastProvider_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		75CE3F7D216689A70011A265 /* ToastState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastState.swift; sourceTree = "<group>"; };
+		75CE3F7F21668FFD0011A265 /* ToastStateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastStateInteractor.swift; sourceTree = "<group>"; };
 		75FF857B2130CBB400B188C1 /* ToastViewAnimationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToastViewAnimationType.swift; path = ToastProvider/Classes/ToastViewAnimationType.swift; sourceTree = "<group>"; };
 		75FF857C2130CBB400B188C1 /* ToastViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToastViewAnimator.swift; path = ToastProvider/Classes/ToastViewAnimator.swift; sourceTree = "<group>"; };
 		76037FDE3ADFA71955A45FFA8E0BBBB6 /* Pods-ToastProvider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToastProvider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -227,6 +231,8 @@
 			children = (
 				7FFE1355D3F4478BD035A4448F772283 /* ToastConfiguration.swift */,
 				3B0DD2CD536A39EC5CA5965EE1B2389C /* ToastProvider.swift */,
+				75CE3F7D216689A70011A265 /* ToastState.swift */,
+				75CE3F7F21668FFD0011A265 /* ToastStateInteractor.swift */,
 				75FF857B2130CBB400B188C1 /* ToastViewAnimationType.swift */,
 				75FF857C2130CBB400B188C1 /* ToastViewAnimator.swift */,
 				F5D81FE4961F563C5271945CD81CF696 /* Extensions */,
@@ -521,6 +527,8 @@
 				077BFB6D0F47C35B8A778F1281EE75C4 /* ToastView.xib in Sources */,
 				EBB7AA24BDBE81DDA41361AFA88819C9 /* ToastWindow.swift in Sources */,
 				C549E597B5EC8458AEF725A61262BFF9 /* UIView+Extensions.swift in Sources */,
+				75CE3F7E216689A70011A265 /* ToastState.swift in Sources */,
+				75CE3F8021668FFD0011A265 /* ToastStateInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
