@@ -12,7 +12,7 @@ class ToastState {
     static let shared = ToastState()
     
     var isShowingToast: Bool
-    var queue: [ToastWindow] {
+    var queue: [ToastDisplayConfig] {
         didSet {
             print("Toast queue length is \(queue.count)")
         }

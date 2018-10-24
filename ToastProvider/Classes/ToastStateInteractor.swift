@@ -13,13 +13,13 @@ class ToastStateInteractor {
         return DispatchQueue(label: "toast_queue")
     }()
     
-    static func nextToastToShow(callback: @escaping ((_ window: ToastWindow?) -> Void)) {
+    static func nextToastToShow(callback: @escaping ((_ displayConfig: ToastDisplayConfig?) -> Void)) {
         toastQueue.async {
             callback(ToastState.shared.queue.first)
         }
     }
     
-    static func addToQueue(toast: ToastWindow) {
+    static func addToQueue(toast: ToastDisplayConfig) {
         toastQueue.async {
             ToastState.shared.queue.append(toast)
         }

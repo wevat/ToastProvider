@@ -10,45 +10,57 @@ import UIKit
 
 public protocol ToastProvider {
     
-    func showToast(withTitle title: String, subtitle: String?, image: UIImage?, animation: ToastViewAnimationType)
+    func showToast(withTitle title: String,
+                   subtitle: String?,
+                   image: UIImage?,
+                   animation: ToastViewAnimationType,
+                   displayTime: TimeInterval,
+                   displaySize: CGSize)
 }
 
 public extension ToastProvider {
     
-    func showToast(withTitle title: String, subtitle: String?, image: UIImage?, animation: ToastViewAnimationType) {
-        let toastView = ToastView(title: title, subtitle: subtitle, image: image)
-        let toastWindow = ToastWindow(view: toastView, animationType: animation)
+    func showToast(withTitle title: String,
+                   subtitle: String?,
+                   image: UIImage?,
+                   animation: ToastViewAnimationType,
+                   displayTime: TimeInterval = ToastConfiguration.shared.displayTime,
+                   displaySize: CGSize = ToastConfiguration.shared.defaultSize) {
         
-        ToastStateInteractor.addToQueue(toast: toastWindow)
+        let toastView = ToastView(title: title, subtitle: subtitle, image: image)
+        let toastWindow = ToastWindow(view: toastView, animationType: animation, size: displaySize)
+        let displayConfig = ToastDisplayConfig(window: toastWindow, displayTime: displayTime, displaySize: displaySize)
+        
+        ToastStateInteractor.addToQueue(toast: displayConfig)
         getNextToastAndShow()
     }
     
     private func getNextToastAndShow() {
-        ToastStateInteractor.nextToastToShow { (toastWindow) in
-            guard let toastWindow = toastWindow else {
+        ToastStateInteractor.nextToastToShow { (displayConfig) in
+            guard let displayConfig = displayConfig else {
                 return
             }
-            self.showIfNotDisplaying(toastWindow)
+            self.showIfNotDisplaying(displayConfig)
         }
     }
     
-    private func showIfNotDisplaying(_ toastWindow: ToastWindow) {
+    private func showIfNotDisplaying(_ displayConfig: ToastDisplayConfig) {
         ToastStateInteractor.isCurrentlyShowingToast(callback: { (isShowing) in
             guard isShowing == false else {
                 print("Currently showing toast, ignoring")
                 return
             }
-            self.show(toastWindow: toastWindow)
+            self.show(displayConfig: displayConfig)
         })
     }
     
-    private func show(toastWindow: ToastWindow) {
-        makeVisible(toastWindow)
+    private func show(displayConfig: ToastDisplayConfig) {
+        makeVisible(displayConfig.window)
         ToastStateInteractor.toggleIsShowing(true)
         
         //Hide
-        DispatchQueue.main.asyncAfter(deadline: .now() + ToastConfiguration.shared.displayTime) {
-            toastWindow.removeAndMakeInvisible()
+        DispatchQueue.main.asyncAfter(deadline: .now() + displayConfig.displayTime) {
+            displayConfig.window.removeAndMakeInvisible()
             ToastStateInteractor.toggleIsShowing(false)
             ToastStateInteractor.removeLastToast {
                 self.getNextToastAndShowSlightDelay()
@@ -57,7 +69,7 @@ public extension ToastProvider {
     }
     
     private func getNextToastAndShowSlightDelay() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + ToastConfiguration.shared.displayTime) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
             self.getNextToastAndShow()
         }
     }
@@ -73,4 +85,3 @@ public extension ToastProvider {
         }
     }
 }
-    

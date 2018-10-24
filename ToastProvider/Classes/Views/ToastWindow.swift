@@ -16,9 +16,9 @@ class ToastWindow: UIWindow, ToastViewAnimator {
     
     private var animationDuration = TimeInterval(0.3)
     
-    convenience init(view: UIView, animationType: ToastViewAnimationType) {
+    convenience init(view: UIView, animationType: ToastViewAnimationType, size: CGSize) {
         self.init(frame: CGRect(origin: CGPoint(x: 0, y: 0),
-                                size: ToastConfiguration.shared.defaultSize))
+                                size: size))
         self.toastView = view
         self.animationType = animationType
     }
