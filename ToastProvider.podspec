@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ToastProvider'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Providing your app with Toast messages.'
 
   s.description      = 'A simple Toast provider library, to provide your app with some temporary information in an eye pleasing fashion. It can show a title, an optional subtitle, and also an optional image.'
