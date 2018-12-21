@@ -49,6 +49,6 @@ class ToastWindow: UIWindow, ToastViewAnimator {
     
     private func setup() {
         isUserInteractionEnabled = false
-        windowLevel = UIWindowLevelAlert + 1
+        windowLevel = UIWindow.Level.alert + 1
     }
 }

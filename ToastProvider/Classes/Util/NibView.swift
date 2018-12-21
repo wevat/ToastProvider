@@ -34,7 +34,7 @@ class NibView: UIView {
         if let view = loadViewFromNib(nibName) {
             self.view = view
             self.view?.frame = bounds
-            self.view?.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
+            self.view?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth, UIView.AutoresizingMask.flexibleHeight]
             addSubview(view)
         }
     }
