@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ToastProvider'
-  s.version          = '1.2'
+  s.version          = '1.3'
   s.summary          = 'Providing your app with Toast messages.'
 
   s.description      = 'A simple Toast provider library, to provide your app with some temporary information in an eye pleasing fashion. It can show a title, an optional subtitle, and also an optional image.'
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/wevat/ToastProvider.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '9.0'
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
 
   s.source_files = 'ToastProvider/Classes/**/*'
   
