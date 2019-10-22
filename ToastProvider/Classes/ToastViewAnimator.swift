@@ -13,6 +13,8 @@ public protocol ToastViewAnimator: class {
     
     func addViewWithAnimation(view: UIView, animationDuration: TimeInterval, animationType: ToastViewAnimationType)
     func removeViewWithAnimation(view: UIView, animationDuration: TimeInterval, animationType: ToastViewAnimationType, completion: @escaping (() -> Void))
+
+    var configuration: ToastConfiguration { get }
 }
 
 public extension ToastViewAnimator where Self: UIView {
@@ -56,8 +58,8 @@ public extension ToastViewAnimator where Self: UIView {
     }
     
     private func addConstraints(to view: UIView) {
-        view.widthAnchor.constraint(equalToConstant: ToastConfiguration.shared.defaultSize.width).isActive = true
-        view.heightAnchor.constraint(equalToConstant: ToastConfiguration.shared.defaultSize.height).isActive = true
+        view.widthAnchor.constraint(equalToConstant: configuration.defaultSize.width).isActive = true
+        view.heightAnchor.constraint(equalToConstant: configuration.defaultSize.height).isActive = true
         view.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
         view.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
     }
@@ -88,11 +90,11 @@ public extension ToastViewAnimator where Self: UIView {
 public extension ToastViewAnimator where Self: UIView {
     
     private func animateViewAddWithBlinds(_ view: UIView, _ animationDuration: TimeInterval) {
-        view.widthAnchor.constraint(equalToConstant: ToastConfiguration.shared.defaultSize.width).isActive = true
+        view.widthAnchor.constraint(equalToConstant: configuration.defaultSize.width).isActive = true
         view.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
         view.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
         view.layoutIfNeeded()
-        constraintCache = view.heightAnchor.constraint(equalToConstant: ToastConfiguration.shared.defaultSize.height)
+        constraintCache = view.heightAnchor.constraint(equalToConstant: configuration.defaultSize.height)
         constraintCache?.isActive = true
         
         UIView.animate(withDuration: animationDuration, delay: 0, usingSpringWithDamping: 0.4, initialSpringVelocity: 0.1, options: .curveLinear, animations: {

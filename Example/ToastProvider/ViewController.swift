@@ -16,7 +16,11 @@ class ViewController: UIViewController, ToastProvider {
     }
 
     @IBAction func showToast() {
-        showToast(withTitle: "Toast", subtitle: "Description of toast message. Could be long, or could be short, you decide.", image: nil, configuration: ToastConfiguration.shared)
+
+        let configuration = ToastConfiguration()
+        configuration.animation = .alphaFade
+
+        showToast(withTitle: "Toast", subtitle: "Description of toast message. Could be long, or could be short, you decide.", image: nil, configuration: configuration)
     }
 }
 

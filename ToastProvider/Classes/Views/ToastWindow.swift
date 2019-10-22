@@ -11,14 +11,18 @@ class ToastWindow: UIWindow, ToastViewAnimator {
     
     var toastView: UIView!
     var animationType: ToastViewAnimationType!
-    
     var constraintCache: NSLayoutConstraint?
+    var configuration: ToastConfiguration
     
     private var animationDuration = TimeInterval(0.3)
     
-    convenience init(view: UIView, configuration: ToastConfiguration) {
-        self.init(frame: CGRect(origin: CGPoint(x: 0, y: 0),
-                                size: configuration.defaultSize))
+    init(view: UIView, configuration: ToastConfiguration) {
+
+        self.configuration = configuration
+
+        super.init(frame: CGRect(origin: CGPoint(x: 0, y: 0),
+        size: configuration.defaultSize))
+
         self.toastView = view
         self.animationType = configuration.animation
 
@@ -26,13 +30,9 @@ class ToastWindow: UIWindow, ToastViewAnimator {
             self.overrideUserInterfaceStyle = configuration.overrideUserInterfaceStyle
         }
     }
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setup()
-    }
-    
+
     required init?(coder aDecoder: NSCoder) {
+        self.configuration = ToastConfiguration()
         super.init(coder: aDecoder)
         setup()
     }
