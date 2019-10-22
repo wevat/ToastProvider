@@ -5,7 +5,12 @@ A simple Toast provider library, to provide your app with some temporary informa
 
 It can show a title, an optional subtitle, and also an optional image. 
 
-Configure the size and the display time of the toast, by changing the values on the configuration singleton, i.e: `ToastConfiguration.shared.displayTime = 1.5`.
+Configure the size and the display time of the toast, by changing the values of the configuration and passing this into showToast i.e:
+
+```
+let configuration = ToastConfiguration()
+configuration.displayTime = 1.5
+```
 
 There are also a few different options for animation types. If you would like to see something added, suggestions are welcomed!
 

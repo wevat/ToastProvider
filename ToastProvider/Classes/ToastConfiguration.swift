@@ -9,9 +9,7 @@
 import Foundation
 
 public class ToastConfiguration {
-    
-    public static let shared = ToastConfiguration()
-    
+
     public var defaultSize: CGSize
     public var displayTime: TimeInterval
     public var animation: ToastViewAnimationType
@@ -19,9 +17,11 @@ public class ToastConfiguration {
     @available(iOS 13.0, *)
     public lazy var overrideUserInterfaceStyle: UIUserInterfaceStyle = .unspecified
     
-    private init() {
-        defaultSize = CGSize(width: 250, height: 250)
-        displayTime = 3
-        animation = .verticalBlinds
+    public init(defaultSize: CGSize = CGSize(width: 250, height: 250),
+                displayTime: TimeInterval = 3,
+                animation: ToastViewAnimationType = .verticalBlinds) {
+        self.defaultSize = defaultSize
+        self.displayTime = displayTime
+        self.animation = animation
     }
 }
