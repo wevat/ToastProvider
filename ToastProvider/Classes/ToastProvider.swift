@@ -13,9 +13,7 @@ public protocol ToastProvider {
     func showToast(withTitle title: String,
                    subtitle: String?,
                    image: UIImage?,
-                   animation: ToastViewAnimationType,
-                   displayTime: TimeInterval,
-                   displaySize: CGSize)
+                   configuration: ToastConfiguration)
 }
 
 public extension ToastProvider {
@@ -23,13 +21,11 @@ public extension ToastProvider {
     func showToast(withTitle title: String,
                    subtitle: String?,
                    image: UIImage?,
-                   animation: ToastViewAnimationType,
-                   displayTime: TimeInterval = ToastConfiguration.shared.displayTime,
-                   displaySize: CGSize = ToastConfiguration.shared.defaultSize) {
+                   configuration: ToastConfiguration) {
         
         let toastView = ToastView(title: title, subtitle: subtitle, image: image)
-        let toastWindow = ToastWindow(view: toastView, animationType: animation, size: displaySize)
-        let displayConfig = ToastDisplayConfig(window: toastWindow, displayTime: displayTime, displaySize: displaySize)
+        let toastWindow = ToastWindow(view: toastView, configuration: configuration)
+        let displayConfig = ToastDisplayConfig(window: toastWindow, displayTime: configuration.displayTime, displaySize: configuration.defaultSize)
         
         ToastStateInteractor.addToQueue(toast: displayConfig)
         getNextToastAndShow()

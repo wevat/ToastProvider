@@ -16,7 +16,7 @@ class ViewController: UIViewController, ToastProvider {
     }
 
     @IBAction func showToast() {
-        showToast(withTitle: "Toast", subtitle: "Description of toast message. Could be long, or could be short, you decide.", image: nil, animation: .verticalBlinds, displayTime: 2, displaySize: CGSize(width: 350, height: 350))
+        showToast(withTitle: "Toast", subtitle: "Description of toast message. Could be long, or could be short, you decide.", image: nil, configuration: ToastConfiguration.shared)
     }
 }
 

@@ -16,11 +16,15 @@ class ToastWindow: UIWindow, ToastViewAnimator {
     
     private var animationDuration = TimeInterval(0.3)
     
-    convenience init(view: UIView, animationType: ToastViewAnimationType, size: CGSize) {
+    convenience init(view: UIView, configuration: ToastConfiguration) {
         self.init(frame: CGRect(origin: CGPoint(x: 0, y: 0),
-                                size: size))
+                                size: configuration.defaultSize))
         self.toastView = view
-        self.animationType = animationType
+        self.animationType = configuration.animation
+
+        if #available(iOS 13.0, *) {
+            self.overrideUserInterfaceStyle = configuration.overrideUserInterfaceStyle
+        }
     }
     
     override init(frame: CGRect) {

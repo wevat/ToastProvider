@@ -14,9 +14,14 @@ public class ToastConfiguration {
     
     public var defaultSize: CGSize
     public var displayTime: TimeInterval
+    public var animation: ToastViewAnimationType
+
+    @available(iOS 13.0, *)
+    public lazy var overrideUserInterfaceStyle: UIUserInterfaceStyle = .unspecified
     
     private init() {
         defaultSize = CGSize(width: 250, height: 250)
         displayTime = 3
+        animation = .verticalBlinds
     }
 }
