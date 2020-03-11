@@ -5,7 +5,7 @@
 //  Created by Harry Bloom on 21/08/2018.
 //
 
-import Foundation
+import UIKit
 
 extension CGRect {
     

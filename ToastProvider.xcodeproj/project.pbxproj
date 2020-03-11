@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEE8B4652419410600695341 /* ToastProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE8B4632419410600695341 /* ToastProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEE8B4812419416500695341 /* ToastProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8B46C2419416500695341 /* ToastProvider.swift */; };
+		AEE8B4822419416500695341 /* ToastConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8B46D2419416500695341 /* ToastConfiguration.swift */; };
+		AEE8B4832419416500695341 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8B46F2419416500695341 /* NibView.swift */; };
+		AEE8B4842419416500695341 /* ToastState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8B4702419416500695341 /* ToastState.swift */; };
+		AEE8B4862419416500695341 /* ToastStateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8B4722419416500695341 /* ToastStateInteractor.swift */; };
+		AEE8B4872419416500695341 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8B4742419416500695341 /* UIView+Extensions.swift */; };
+		AEE8B4882419416500695341 /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8B4752419416500695341 /* CGRect+Extensions.swift */; };
+		AEE8B4892419416500695341 /* ToastDisplayConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8B4762419416500695341 /* ToastDisplayConfig.swift */; };
+		AEE8B48A2419416500695341 /* ToastViewAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8B4772419416500695341 /* ToastViewAnimationType.swift */; };
+		AEE8B48B2419416500695341 /* ToastViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8B4782419416500695341 /* ToastViewAnimator.swift */; };
+		AEE8B48C2419416500695341 /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8B47A2419416500695341 /* ToastWindow.swift */; };
+		AEE8B48D2419416500695341 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8B47B2419416500695341 /* ToastView.swift */; };
+		AEE8B48E2419416500695341 /* ToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE8B47C2419416500695341 /* ToastView.xib */; };
+		AEE8B4902419416500695341 /* toast.gif in Resources */ = {isa = PBXBuildFile; fileRef = AEE8B47F2419416500695341 /* toast.gif */; };
+		AEE8B4912419416500695341 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE8B4802419416500695341 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEE8B4602419410600695341 /* ToastProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToastProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE8B4632419410600695341 /* ToastProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToastProvider.h; sourceTree = "<group>"; };
+		AEE8B4642419410600695341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE8B46C2419416500695341 /* ToastProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastProvider.swift; sourceTree = "<group>"; };
+		AEE8B46D2419416500695341 /* ToastConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastConfiguration.swift; sourceTree = "<group>"; };
+		AEE8B46F2419416500695341 /* NibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		AEE8B4702419416500695341 /* ToastState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastState.swift; sourceTree = "<group>"; };
+		AEE8B4722419416500695341 /* ToastStateInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastStateInteractor.swift; sourceTree = "<group>"; };
+		AEE8B4742419416500695341 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		AEE8B4752419416500695341 /* CGRect+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensions.swift"; sourceTree = "<group>"; };
+		AEE8B4762419416500695341 /* ToastDisplayConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastDisplayConfig.swift; sourceTree = "<group>"; };
+		AEE8B4772419416500695341 /* ToastViewAnimationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastViewAnimationType.swift; sourceTree = "<group>"; };
+		AEE8B4782419416500695341 /* ToastViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastViewAnimator.swift; sourceTree = "<group>"; };
+		AEE8B47A2419416500695341 /* ToastWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastWindow.swift; sourceTree = "<group>"; };
+		AEE8B47B2419416500695341 /* ToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		AEE8B47C2419416500695341 /* ToastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToastView.xib; sourceTree = "<group>"; };
+		AEE8B47F2419416500695341 /* toast.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = toast.gif; sourceTree = "<group>"; };
+		AEE8B4802419416500695341 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEE8B45D2419410600695341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEE8B4562419410600695341 = {
+			isa = PBXGroup;
+			children = (
+				AEE8B4622419410600695341 /* ToastProvider */,
+				AEE8B4612419410600695341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEE8B4612419410600695341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEE8B4602419410600695341 /* ToastProvider.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEE8B4622419410600695341 /* ToastProvider */ = {
+			isa = PBXGroup;
+			children = (
+				AEE8B47D2419416500695341 /* Assets */,
+				AEE8B46B2419416500695341 /* Classes */,
+				AEE8B4632419410600695341 /* ToastProvider.h */,
+				AEE8B4642419410600695341 /* Info.plist */,
+			);
+			path = ToastProvider;
+			sourceTree = "<group>";
+		};
+		AEE8B46B2419416500695341 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AEE8B46C2419416500695341 /* ToastProvider.swift */,
+				AEE8B46D2419416500695341 /* ToastConfiguration.swift */,
+				AEE8B46E2419416500695341 /* Util */,
+				AEE8B4702419416500695341 /* ToastState.swift */,
+				AEE8B4722419416500695341 /* ToastStateInteractor.swift */,
+				AEE8B4732419416500695341 /* Extensions */,
+				AEE8B4762419416500695341 /* ToastDisplayConfig.swift */,
+				AEE8B4772419416500695341 /* ToastViewAnimationType.swift */,
+				AEE8B4782419416500695341 /* ToastViewAnimator.swift */,
+				AEE8B4792419416500695341 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AEE8B46E2419416500695341 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AEE8B46F2419416500695341 /* NibView.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		AEE8B4732419416500695341 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AEE8B4742419416500695341 /* UIView+Extensions.swift */,
+				AEE8B4752419416500695341 /* CGRect+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AEE8B4792419416500695341 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AEE8B47A2419416500695341 /* ToastWindow.swift */,
+				AEE8B47B2419416500695341 /* ToastView.swift */,
+				AEE8B47C2419416500695341 /* ToastView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AEE8B47D2419416500695341 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AEE8B47F2419416500695341 /* toast.gif */,
+				AEE8B4802419416500695341 /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AEE8B45B2419410600695341 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE8B4652419410600695341 /* ToastProvider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AEE8B45F2419410600695341 /* ToastProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE8B4682419410600695341 /* Build configuration list for PBXNativeTarget "ToastProvider" */;
+			buildPhases = (
+				AEE8B45B2419410600695341 /* Headers */,
+				AEE8B45C2419410600695341 /* Sources */,
+				AEE8B45D2419410600695341 /* Frameworks */,
+				AEE8B45E2419410600695341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToastProvider;
+			productName = ToastProvider;
+			productReference = AEE8B4602419410600695341 /* ToastProvider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEE8B4572419410600695341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Wevat;
+				TargetAttributes = {
+					AEE8B45F2419410600695341 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = AEE8B45A2419410600695341 /* Build configuration list for PBXProject "ToastProvider" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEE8B4562419410600695341;
+			productRefGroup = AEE8B4612419410600695341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEE8B45F2419410600695341 /* ToastProvider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEE8B45E2419410600695341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE8B4902419416500695341 /* toast.gif in Resources */,
+				AEE8B4912419416500695341 /* Images.xcassets in Resources */,
+				AEE8B48E2419416500695341 /* ToastView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEE8B45C2419410600695341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE8B4872419416500695341 /* UIView+Extensions.swift in Sources */,
+				AEE8B48B2419416500695341 /* ToastViewAnimator.swift in Sources */,
+				AEE8B4822419416500695341 /* ToastConfiguration.swift in Sources */,
+				AEE8B4892419416500695341 /* ToastDisplayConfig.swift in Sources */,
+				AEE8B48D2419416500695341 /* ToastView.swift in Sources */,
+				AEE8B4812419416500695341 /* ToastProvider.swift in Sources */,
+				AEE8B4832419416500695341 /* NibView.swift in Sources */,
+				AEE8B4882419416500695341 /* CGRect+Extensions.swift in Sources */,
+				AEE8B48C2419416500695341 /* ToastWindow.swift in Sources */,
+				AEE8B4842419416500695341 /* ToastState.swift in Sources */,
+				AEE8B4862419416500695341 /* ToastStateInteractor.swift in Sources */,
+				AEE8B48A2419416500695341 /* ToastViewAnimationType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AEE8B4662419410600695341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEE8B4672419410600695341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEE8B4692419410600695341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MW7MHM7DNB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ToastProvider/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wevat.ToastProvider;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEE8B46A2419410600695341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MW7MHM7DNB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ToastProvider/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wevat.ToastProvider;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEE8B45A2419410600695341 /* Build configuration list for PBXProject "ToastProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE8B4662419410600695341 /* Debug */,
+				AEE8B4672419410600695341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEE8B4682419410600695341 /* Build configuration list for PBXNativeTarget "ToastProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE8B4692419410600695341 /* Debug */,
+				AEE8B46A2419410600695341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEE8B4572419410600695341 /* Project object */;
+}

@@ -5,7 +5,7 @@
 //  Created by Harry Bloom on 24/10/2018.
 //
 
-import Foundation
+import UIKit
 
 struct ToastDisplayConfig {
     
