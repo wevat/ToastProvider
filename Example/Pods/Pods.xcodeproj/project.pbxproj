@@ -23,6 +23,7 @@
 		7E47D1E04BDB11F7277E6F18E4683965 /* ToastProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0DD2CD536A39EC5CA5965EE1B2389C /* ToastProvider.swift */; };
 		87C1BAC6C7593D9EED0B82DEC4732A15 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95F056B58FADA4D3D83991F973094B9 /* ToastView.swift */; };
 		9682DC126C5CA0995C87C7506F27DC46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2EB03F0C19C5BD2F98E808D2AF2CD82 /* Images.xcassets */; };
+		AE3A54002461694D0032D2CC /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A53FD246168A50032D2CC /* UIColor+Extensions.swift */; };
 		B0C7929783297A939D927A787FFBC485 /* ToastProvider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E65C17F03921DAB354D0F25B9DEA2A7 /* ToastProvider-dummy.m */; };
 		BAC6D6AD56E1E14BC80239734FFBCCD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C549E597B5EC8458AEF725A61262BFF9 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A92D8AC26C96628ED3166AF36414D /* UIView+Extensions.swift */; };
@@ -95,6 +96,7 @@
 		9D49BB1745CD1D4A78CAA4406D747C57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A35B303CEA21F60F12F153C0E8B05AAF /* Pods-ToastProvider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToastProvider_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A9E802ED329F83EA50FF67F210FB64D4 /* Pods_ToastProvider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToastProvider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3A53FD246168A50032D2CC /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		B46D560DF5B98799D1F7B1F167B1E9C8 /* ResourceBundle-ToastProvider-ToastProvider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ToastProvider-ToastProvider-Info.plist"; sourceTree = "<group>"; };
 		B955D1B85352F31B34C14D8B0939566F /* Pods-ToastProvider_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToastProvider_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B9ADEE2331D31A909FEC957EE7CF1241 /* ToastView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ToastView.xib; sourceTree = "<group>"; };
@@ -318,6 +320,7 @@
 			isa = PBXGroup;
 			children = (
 				6D108D080886D96DEB62F4B6981A4156 /* CGRect+Extensions.swift */,
+				AE3A53FD246168A50032D2CC /* UIColor+Extensions.swift */,
 				7A4A92D8AC26C96628ED3166AF36414D /* UIView+Extensions.swift */,
 			);
 			name = Extensions;
@@ -441,7 +444,7 @@
 						LastSwiftMigration = 1020;
 					};
 					70122D1EFCFA1D6B1D9FF70384436124 = {
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -529,6 +532,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54ACDB9C26FB4F82AA8D6F27834907F5 /* CGRect+Extensions.swift in Sources */,
+				AE3A54002461694D0032D2CC /* UIColor+Extensions.swift in Sources */,
 				75FF857D2130CBB400B188C1 /* ToastViewAnimationType.swift in Sources */,
 				75FF857E2130CBB400B188C1 /* ToastViewAnimator.swift in Sources */,
 				758704BA216B97CB00BECBCF /* ToastState.swift in Sources */,
