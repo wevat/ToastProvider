@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE3A5402246182D60032D2CC /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A5401246182D60032D2CC /* UIColor+Extensions.swift */; };
 		AEE8B4652419410600695341 /* ToastProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE8B4632419410600695341 /* ToastProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEE8B4812419416500695341 /* ToastProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8B46C2419416500695341 /* ToastProvider.swift */; };
 		AEE8B4822419416500695341 /* ToastConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE8B46D2419416500695341 /* ToastConfiguration.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE3A5401246182D60032D2CC /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		AEE8B4602419410600695341 /* ToastProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToastProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE8B4632419410600695341 /* ToastProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToastProvider.h; sourceTree = "<group>"; };
 		AEE8B4642419410600695341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		AEE8B4732419416500695341 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				AE3A5401246182D60032D2CC /* UIColor+Extensions.swift */,
 				AEE8B4742419416500695341 /* UIView+Extensions.swift */,
 				AEE8B4752419416500695341 /* CGRect+Extensions.swift */,
 			);
@@ -222,6 +225,7 @@
 				AEE8B4872419416500695341 /* UIView+Extensions.swift in Sources */,
 				AEE8B48B2419416500695341 /* ToastViewAnimator.swift in Sources */,
 				AEE8B4822419416500695341 /* ToastConfiguration.swift in Sources */,
+				AE3A5402246182D60032D2CC /* UIColor+Extensions.swift in Sources */,
 				AEE8B4892419416500695341 /* ToastDisplayConfig.swift in Sources */,
 				AEE8B48D2419416500695341 /* ToastView.swift in Sources */,
 				AEE8B4812419416500695341 /* ToastProvider.swift in Sources */,
