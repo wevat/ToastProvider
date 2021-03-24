@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "57566e8602e7c360c0d1e0a80a8f1419"
+build_time: [1615483078, 771341000]
+inputs:
+  "/Users/harrybloom/development/ios/ToastProvider/Sources/ToastProvider/Classes/Extensions/CGRect+Extensions.swift": !dirty [1601652991, 78105824]
+  "/Users/harrybloom/development/ios/ToastProvider/Sources/ToastProvider/Classes/Extensions/UIColor+Extensions.swift": !dirty [1601653010, 532175547]
+  "/Users/harrybloom/development/ios/ToastProvider/Sources/ToastProvider/Classes/Extensions/UIView+Extensions.swift": !dirty [1534887206, 44374486]
+  "/Users/harrybloom/development/ios/ToastProvider/Sources/ToastProvider/Classes/ToastConfiguration.swift": !dirty [1601652991, 79154849]
+  "/Users/harrybloom/development/ios/ToastProvider/Sources/ToastProvider/Classes/ToastDisplayConfig.swift": !dirty [1601652991, 80147948]
+  "/Users/harrybloom/development/ios/ToastProvider/Sources/ToastProvider/Classes/ToastProvider.swift": !dirty [1601652991, 81426272]
+  "/Users/harrybloom/development/ios/ToastProvider/Sources/ToastProvider/Classes/ToastState.swift": !dirty [1540373455, 615927470]
+  "/Users/harrybloom/development/ios/ToastProvider/Sources/ToastProvider/Classes/ToastStateInteractor.swift": !dirty [1540373784, 537916810]
+  "/Users/harrybloom/development/ios/ToastProvider/Sources/ToastProvider/Classes/ToastViewAnimationType.swift": !dirty [1535064092, 245585047]
+  "/Users/harrybloom/development/ios/ToastProvider/Sources/ToastProvider/Classes/ToastViewAnimator.swift": !dirty [1601652991, 82722961]
+  "/Users/harrybloom/development/ios/ToastProvider/Sources/ToastProvider/Classes/Util/NibView.swift": !dirty [1545401834, 85627918]
+  "/Users/harrybloom/development/ios/ToastProvider/Sources/ToastProvider/Classes/Views/ToastView.swift": !dirty [1601653010, 532819483]
+  "/Users/harrybloom/development/ios/ToastProvider/Sources/ToastProvider/Classes/Views/ToastWindow.swift": !dirty [1601652991, 90262949]
+  "/Users/harrybloom/development/ios/ToastProvider/.build/x86_64-apple-macosx/debug/ToastProvider.build/DerivedSources/resource_bundle_accessor.swift": !dirty [1615482948, 846505199]

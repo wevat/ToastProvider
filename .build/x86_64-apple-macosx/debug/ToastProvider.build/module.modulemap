@@ -1,0 +1,4 @@
+module ToastProvider {
+    header "/Users/harrybloom/development/ios/ToastProvider/.build/x86_64-apple-macosx/debug/ToastProvider.build/ToastProvider-Swift.h"
+    requires objc
+}

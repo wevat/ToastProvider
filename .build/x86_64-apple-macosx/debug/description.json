@@ -1,0 +1,41 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "\/Users\/harrybloom\/development\/ios\/ToastProvider\/.build\/x86_64-apple-macosx\/debug\/ToastProvider_ToastProvider.bundle\/Images.xcassets" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "\/Users\/harrybloom\/development\/ios\/ToastProvider\/Sources\/ToastProvider\/Assets\/Images.xcassets"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "\/Users\/harrybloom\/development\/ios\/ToastProvider\/.build\/x86_64-apple-macosx\/debug\/ToastProvider_ToastProvider.bundle\/Images.xcassets"
+        }
+      ]
+    },
+    "\/Users\/harrybloom\/development\/ios\/ToastProvider\/.build\/x86_64-apple-macosx\/debug\/ToastProvider_ToastProvider.bundle\/ToastView.xib" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/harrybloom\/development\/ios\/ToastProvider\/Sources\/ToastProvider\/Classes\/Views\/ToastView.xib"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/harrybloom\/development\/ios\/ToastProvider\/.build\/x86_64-apple-macosx\/debug\/ToastProvider_ToastProvider.bundle\/ToastView.xib"
+        }
+      ]
+    }
+  },
+  "swiftTargetMap" : {
+    "C.ToastProvider-debug.module" : "ToastProvider"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

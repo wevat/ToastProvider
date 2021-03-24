@@ -1,0 +1,217 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ToastView"
+provides-nominal:
+- "13ToastProvider0A4ViewC"
+provides-member:
+- ["13ToastProvider0A4ViewC", ""]
+provides-dynamic-lookup:
+- "addImageView"
+- "addSubtitleLabel"
+- "addTitleLabel"
+- "blurView"
+- "imageContainerView"
+- "imageView"
+- "setupBackgroundView"
+- "setupLabels"
+- "setupStackView"
+- "setupView"
+- "stackView"
+- "subtitleLabel"
+- "titleLabel"
+depends-top-level:
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSCoder"
+- "NibView"
+- "String"
+- "ToastView"
+- !private "UIBlurEffect"
+- !private "UIColor"
+- !private "UIFont"
+- "UIImage"
+- "UIImageView"
+- "UILabel"
+- "UIStackView"
+- "UIView"
+- "UIVisualEffectView"
+- !private "addImageView"
+- !private "addSubtitleLabel"
+- !private "addSubview"
+- !private "addTitleLabel"
+- !private "backgroundColor"
+- !private "blurView"
+- !private "centerXAnchor"
+- !private "centerYAnchor"
+- !private "imageContainerView"
+- !private "imageView"
+- !private "insertSubview"
+- !private "leadingAnchor"
+- !private "setupBackgroundView"
+- !private "setupLabels"
+- !private "setupStackView"
+- !private "setupView"
+- !private "stackView"
+- !private "subtitleLabel"
+- !private "titleLabel"
+- !private "trailingAnchor"
+- !private "view"
+depends-member:
+- !private ["Sa", "forEach"]
+- !private ["SK", ""]
+- !private ["SK", "forEach"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["Sl", ""]
+- !private ["Sl", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["Se", "forEach"]
+- !private ["SE", "forEach"]
+- !private ["SQ", ""]
+- !private ["SQ", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["SH", "forEach"]
+- !private ["SM", ""]
+- !private ["SM", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- ["13ToastProvider7NibViewC", "NSCoder"]
+- ["13ToastProvider7NibViewC", "String"]
+- !private ["13ToastProvider7NibViewC", "UIBlurEffect"]
+- !private ["13ToastProvider7NibViewC", "UIColor"]
+- !private ["13ToastProvider7NibViewC", "UIFont"]
+- ["13ToastProvider7NibViewC", "UIImage"]
+- ["13ToastProvider7NibViewC", "UIImageView"]
+- ["13ToastProvider7NibViewC", "UILabel"]
+- ["13ToastProvider7NibViewC", "UIStackView"]
+- ["13ToastProvider7NibViewC", "UIView"]
+- ["13ToastProvider7NibViewC", "UIVisualEffectView"]
+- ["13ToastProvider7NibViewC", ""]
+- ["13ToastProvider7NibViewC", "addImageView"]
+- ["13ToastProvider7NibViewC", "addSubtitleLabel"]
+- !private ["13ToastProvider7NibViewC", "addSubview"]
+- ["13ToastProvider7NibViewC", "addTitleLabel"]
+- !private ["13ToastProvider7NibViewC", "backgroundColor"]
+- !private ["13ToastProvider7NibViewC", "blurView"]
+- !private ["13ToastProvider7NibViewC", "centerXAnchor"]
+- !private ["13ToastProvider7NibViewC", "centerYAnchor"]
+- !private ["13ToastProvider7NibViewC", "imageContainerView"]
+- !private ["13ToastProvider7NibViewC", "imageView"]
+- ["13ToastProvider7NibViewC", "init"]
+- !private ["13ToastProvider7NibViewC", "insertSubview"]
+- !private ["13ToastProvider7NibViewC", "leadingAnchor"]
+- ["13ToastProvider7NibViewC", "setupBackgroundView"]
+- ["13ToastProvider7NibViewC", "setupLabels"]
+- ["13ToastProvider7NibViewC", "setupStackView"]
+- ["13ToastProvider7NibViewC", "setupView"]
+- !private ["13ToastProvider7NibViewC", "stackView"]
+- !private ["13ToastProvider7NibViewC", "subtitleLabel"]
+- !private ["13ToastProvider7NibViewC", "titleLabel"]
+- !private ["13ToastProvider7NibViewC", "trailingAnchor"]
+- !private ["13ToastProvider7NibViewC", "view"]
+- !private ["Sk", ""]
+- !private ["Sk", "forEach"]
+- !private ["Sm", ""]
+- !private ["Sm", "forEach"]
+- !private ["ST", ""]
+- !private ["ST", "forEach"]
+- ["13ToastProvider0A4ViewC", "NSCoder"]
+- ["13ToastProvider0A4ViewC", "String"]
+- !private ["13ToastProvider0A4ViewC", "UIBlurEffect"]
+- !private ["13ToastProvider0A4ViewC", "UIColor"]
+- !private ["13ToastProvider0A4ViewC", "UIFont"]
+- ["13ToastProvider0A4ViewC", "UIImage"]
+- ["13ToastProvider0A4ViewC", "UIImageView"]
+- ["13ToastProvider0A4ViewC", "UILabel"]
+- ["13ToastProvider0A4ViewC", "UIStackView"]
+- ["13ToastProvider0A4ViewC", "UIView"]
+- ["13ToastProvider0A4ViewC", "UIVisualEffectView"]
+- !private ["13ToastProvider0A4ViewC", "addImageView"]
+- !private ["13ToastProvider0A4ViewC", "addSubtitleLabel"]
+- !private ["13ToastProvider0A4ViewC", "addSubview"]
+- !private ["13ToastProvider0A4ViewC", "addTitleLabel"]
+- !private ["13ToastProvider0A4ViewC", "backgroundColor"]
+- ["13ToastProvider0A4ViewC", "blurView"]
+- !private ["13ToastProvider0A4ViewC", "centerXAnchor"]
+- !private ["13ToastProvider0A4ViewC", "centerYAnchor"]
+- ["13ToastProvider0A4ViewC", "deinit"]
+- ["13ToastProvider0A4ViewC", "imageContainerView"]
+- ["13ToastProvider0A4ViewC", "imageView"]
+- ["13ToastProvider0A4ViewC", "init"]
+- !private ["13ToastProvider0A4ViewC", "insertSubview"]
+- !private ["13ToastProvider0A4ViewC", "leadingAnchor"]
+- !private ["13ToastProvider0A4ViewC", "setupBackgroundView"]
+- !private ["13ToastProvider0A4ViewC", "setupLabels"]
+- !private ["13ToastProvider0A4ViewC", "setupStackView"]
+- !private ["13ToastProvider0A4ViewC", "setupView"]
+- ["13ToastProvider0A4ViewC", "stackView"]
+- ["13ToastProvider0A4ViewC", "subtitleLabel"]
+- ["13ToastProvider0A4ViewC", "titleLabel"]
+- !private ["13ToastProvider0A4ViewC", "trailingAnchor"]
+- !private ["13ToastProvider0A4ViewC", "view"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "13ToastProvider7NibViewC"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- "13ToastProvider0A4ViewC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/harrybloom/development/ios/ToastProvider/.build/x86_64-apple-macosx/debug/ToastProvider.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f00d3ab0e3acea6490d1567af1d5b29e"

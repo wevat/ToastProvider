@@ -1,0 +1,99 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ToastViewAnimator"
+provides-nominal:
+- "13ToastProvider0A12ViewAnimatorP"
+provides-member:
+- ["13ToastProvider0A12ViewAnimatorP", ""]
+- ["13ToastProvider0A12ViewAnimatorP", "addViewWithAnimation"]
+- ["13ToastProvider0A12ViewAnimatorP", "removeViewWithAnimation"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSLayoutConstraint"
+- "Self"
+- "TimeInterval"
+- "ToastConfiguration"
+- "ToastViewAnimationType"
+- "ToastViewAnimator"
+- "UIView"
+- "Void"
+- !private "addConstraints"
+- !private "addSubview"
+- !private "addView"
+- !private "animateViewAddWithBlinds"
+- !private "animateViewAddWithFade"
+- !private "animateViewRemoveWithBlinds"
+- !private "animateViewRemoveWithFade"
+- !private "configuration"
+- !private "constraintCache"
+- !private "performPreBounceAnimation"
+- !private "subviews"
+depends-member:
+- ["SQ", ""]
+- ["SQ", "alphaFade"]
+- ["SQ", "verticalBlinds"]
+- ["SH", "alphaFade"]
+- ["SH", "verticalBlinds"]
+- ["13ToastProvider0A17ViewAnimationTypeO", "alphaFade"]
+- ["13ToastProvider0A17ViewAnimationTypeO", "verticalBlinds"]
+- ["13ToastProvider0A12ViewAnimatorP", "Bool"]
+- ["13ToastProvider0A12ViewAnimatorP", "NSLayoutConstraint"]
+- ["13ToastProvider0A12ViewAnimatorP", "TimeInterval"]
+- ["13ToastProvider0A12ViewAnimatorP", "ToastConfiguration"]
+- ["13ToastProvider0A12ViewAnimatorP", "ToastViewAnimationType"]
+- ["13ToastProvider0A12ViewAnimatorP", "UIView"]
+- ["13ToastProvider0A12ViewAnimatorP", "Void"]
+- ["13ToastProvider0A12ViewAnimatorP", ""]
+- !private ["13ToastProvider0A12ViewAnimatorP", "addConstraints"]
+- !private ["13ToastProvider0A12ViewAnimatorP", "addSubview"]
+- !private ["13ToastProvider0A12ViewAnimatorP", "addView"]
+- ["13ToastProvider0A12ViewAnimatorP", "addViewWithAnimation"]
+- !private ["13ToastProvider0A12ViewAnimatorP", "animateViewAddWithBlinds"]
+- !private ["13ToastProvider0A12ViewAnimatorP", "animateViewAddWithFade"]
+- !private ["13ToastProvider0A12ViewAnimatorP", "animateViewRemoveWithBlinds"]
+- !private ["13ToastProvider0A12ViewAnimatorP", "animateViewRemoveWithFade"]
+- ["13ToastProvider0A12ViewAnimatorP", "configuration"]
+- ["13ToastProvider0A12ViewAnimatorP", "constraintCache"]
+- !private ["13ToastProvider0A12ViewAnimatorP", "performPreBounceAnimation"]
+- ["13ToastProvider0A12ViewAnimatorP", "removeViewWithAnimation"]
+- !private ["13ToastProvider0A12ViewAnimatorP", "subviews"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+depends-nominal:
+- "SQ"
+- "SH"
+- "13ToastProvider0A17ViewAnimationTypeO"
+- "13ToastProvider0A12ViewAnimatorP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/harrybloom/development/ios/ToastProvider/.build/x86_64-apple-macosx/debug/ToastProvider.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "249ab1a8d4d84d1fa0b28d6e0c3f3a03"
